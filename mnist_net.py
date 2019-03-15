@@ -11,12 +11,12 @@ class NeuralNet:
         self.num_hidden=num_hidden
         self.num_neuron=num_neuron
         self.learning_rate=learning_rate
-        self.X_train=np.zeros((7000,784))
-        self.Y_train=np.zeros(7000)
+        self.X_train=np.zeros((7000,784))     #change 7000 to 60,000 if you want to use the full MNIST dataset
+        self.Y_train=np.zeros(7000)           #change 7000 to 60,000 if you want to use the full MNIST dataset
         self.d_weights=[]
         self.d_bias=[]
         self.d_layers=[]
-        self.Y_train_hot=np.zeros((7000,10))
+        self.Y_train_hot=np.zeros((7000,10)) #change 7000 to 60,000 if you want to use the full MNIST dataset
     
     def relu(self,x):                         #relu for nonlinearity
         return np.maximum(0,x)
