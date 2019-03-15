@@ -125,5 +125,5 @@ class NeuralNet:
 
 Net1=NeuralNet(2,300,.1) #declare as NeuralNet(number of hidden layers,number of neurons in hidden layer,learning rate)
 Net1.train()
+Net1.accuracy()          #training set accuracy
 Net1.test()
-Net1.accuracy()
