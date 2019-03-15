@@ -4,11 +4,7 @@ CLASSIFICATION OF HANDWRITTEN DIGITS FROM 0 TO 9 USING MNIST DATASET AND ONLY NU
 
 
 To run the code
-1.)Download all three files
-
-
-
-2.)Change the file name of train.csv while running your code in your local pc 
+1.)Download all th three files
 
 
 
