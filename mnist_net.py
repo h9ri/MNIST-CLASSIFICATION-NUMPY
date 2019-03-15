@@ -22,7 +22,7 @@ class NeuralNet:
         return np.maximum(0,x)
     
     def get_data(self):                       # getting the data
-        Data= np.genfromtxt(r'C:\Users\hari\ml_assignment\mnist_train.csv', delimiter=',')
+        Data= np.genfromtxt(r'mnist_train.csv', delimiter=',')
         self.Y_train=Data[:,0]
         self.X_train=Data[:,1:]/255
         self.Y_train=self.Y_train.astype(int)
